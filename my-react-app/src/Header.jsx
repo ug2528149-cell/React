@@ -10,6 +10,7 @@ function Header(){
                 <li>Services</li>
               </ul>
            </nav>
+           <hr></hr>
         </header>
     )
 }
