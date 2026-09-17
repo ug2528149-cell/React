@@ -17,10 +17,20 @@ const root = createRoot(document.getElementById("root"))
  //   "© 20xx <last name here> development. All rights reserved."
  
 
+ function AnotherHeader(){
+    return(
+        <header>
+            <h1>Understand React</h1>
+        </header>
+        
+    )
+ }
+
 
 function Page() {
     return (
         <>
+        <Header/>
          <header>
            <img src="react-logo.png" alt="image" width={20}/>
          </header>
