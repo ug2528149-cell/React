@@ -1,3 +1,9 @@
+//defaultProps = default values for props in case they are not 
+//                 passed from the parent component
+//                  name: "Guest"
+
+
+import PropTypes from 'types'
 
 function Student(props){
      return(
@@ -8,4 +14,12 @@ function Student(props){
         </div>
      )
 }
+
+Student.propTypes ={
+    name: PropTypes.string,
+    age: PropTypes.number,
+    Course: PropTypes.string,
+}
+
+
 export default Student
