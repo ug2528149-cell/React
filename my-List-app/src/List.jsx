@@ -14,7 +14,7 @@ function List(){
 
         fruits.sort((a,b) =>a.calories -b.calories); //NUMERIC
 
-        const listItems = fruits.map(fruit =><li key={fruit.id}>{fruit.name}:&nbsp;<b>{fruit.calories}</b></li>)
+        const listItems = fruits.map(fruit =><li key={fruit.id}>{fruit.name}&nbsp;<b>{fruit.calories}</b></li>)
 
 
     return(<ol>{listItems}</ol>)
