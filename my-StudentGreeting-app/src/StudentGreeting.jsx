@@ -2,7 +2,7 @@
 
 function StudentGreeting(props){
     if(props.isLoggedIn){
-        return <h2>Welcome back!</h2>
+        return <h2>Welcome back!{props.username}</h2>
     } else{
         return <h2>Please log in.</h2>
     }

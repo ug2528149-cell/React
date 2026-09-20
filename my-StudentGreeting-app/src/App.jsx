@@ -4,10 +4,18 @@
 
 import StudentGreeting from "./StudentGreeting.jsx"
 
-function App(){
-  return(
+import UserGreeting from "./UserGreeting.jsx"
+
+function App() {
+  return (
     <>
-     <StudentGreeting isLoggedIn={true} />
+      <StudentGreeting
+        isLoggedIn={true}
+        username="Manzi Prince"
+      />
+      <UserGreeting
+        isLoggedIn={false}
+        username="React Users" />
     </>
   )
 }
