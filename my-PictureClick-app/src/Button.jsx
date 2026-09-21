@@ -12,9 +12,10 @@ function Button() {
         } else {
             console.log(`${name} stop clicking me`)
         }
-        return (<button onclick={handleClick}>Click me</button>)
+    }
+        return (<button onClick={() =>handleClick('Bro')}>Click me</button>)
 
     }
-}
+
 
 export default Button
