@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(1, 12, 49);
+  color:white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  
+  
+}
+.but{
+  background-color: rgb(14, 185, 185);
+  width:100px;
+  height: 40px;
+  margin-left:20px ;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
